@@ -37,6 +37,9 @@ minute : m
 second : s 
 AM/PM : a 
 timeZone : z
+
+few common formates
+println new Date().format("yyyy-MM-dd hh:mma") //O/P: 2021-01-13 10:34AM
 ```
 
 #### changing date format
