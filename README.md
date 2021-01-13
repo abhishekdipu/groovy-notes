@@ -15,15 +15,14 @@ String randomString = RandomStringUtils.random(length, charset.toCharArray())
 ```js
 def format = "yyyy-MM-dd"
 println new Date().format(format) //O/P: 2021-01-13
-
-[Available formates](https://rmr.fandom.com/wiki/Groovy_Date_Parsing_and_Formatting)
+```
+#### [Available formates](https://rmr.fandom.com/wiki/Groovy_Date_Parsing_and_Formatting)
+```js
 year:y 
 yy -> 21
 yyyy-> 2021
-
-
-
 ```
+
 #### changing date format
 ```js
 def oldDate = '09-JAN-1996'
