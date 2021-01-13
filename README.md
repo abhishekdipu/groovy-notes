@@ -15,6 +15,8 @@ String randomString = RandomStringUtils.random(length, charset.toCharArray())
 ```js
 def format = "yyyy-MM-dd"
 println new Date().format(format) //O/P: 2021-01-13
+
+println new Date().format("yyyy-MM-dd hh:mma") //O/P: 2021-01-13 10:34AM
 ```
 #### [Available formates](https://rmr.fandom.com/wiki/Groovy_Date_Parsing_and_Formatting)
 ```js
@@ -38,8 +40,6 @@ second : s
 AM/PM : a 
 timeZone : z
 
-few common formates
-println new Date().format("yyyy-MM-dd hh:mma") //O/P: 2021-01-13 10:34AM
 ```
 
 #### changing date format
