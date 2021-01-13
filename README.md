@@ -18,9 +18,25 @@ println new Date().format(format) //O/P: 2021-01-13
 ```
 #### [Available formates](https://rmr.fandom.com/wiki/Groovy_Date_Parsing_and_Formatting)
 ```js
-year:y 
+year : y(LowerCase) 
 yy -> 21
 yyyy-> 2021
+
+month : M(UpperCase)
+M -> 1
+MM -> 01
+MMM -> Jan
+MMMM -> January
+
+day: d(LowerCase) 
+d -> 9
+dd -> 09
+
+hour : h (for 12 hr format), H (for 24 hr format)
+minute : m
+second : s 
+AM/PM : a 
+timeZone : z
 ```
 
 #### changing date format
