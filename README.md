@@ -9,7 +9,7 @@ String charset = (('A'..'Z') + ('0'..'9')).join()
 Integer length = 9
 String randomString = RandomStringUtils.random(length, charset.toCharArray())
 ```
-### random string generation
+### getting substring
 ```js
 String name ='Abhishek'
 String sub1 = name.substring(4);//shek
