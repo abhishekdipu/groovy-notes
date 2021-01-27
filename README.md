@@ -1,5 +1,6 @@
 # groovy-notes
 
+## String
 ### random string generation
 ```js
 import org.apache.commons.lang.RandomStringUtils
@@ -8,8 +9,14 @@ String charset = (('A'..'Z') + ('0'..'9')).join()
 Integer length = 9
 String randomString = RandomStringUtils.random(length, charset.toCharArray())
 ```
+### random string generation
+```js
+String name ='Abhishek'
+String sub1 = name.substring(4);//shek
+String sub2 = name.substring(0,4);//abhi
+```
 
-### date handeling
+## date handeling
 
 #### getting date
 ```js
