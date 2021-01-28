@@ -15,6 +15,14 @@ String name ='Abhishek'
 String sub1 = name.substring(4);//shek
 String sub2 = name.substring(0,4);//abhi
 ```
+## Parsing data
+```js
+import groovy.json.JsonSlurper as JsonSlurper
+
+def jsonData = '{"name":"abhi","age":"24"}'
+def parsedData = new JsonSlurper().parseText(jsonData);
+def name = parsedData.name; //abhi
+```
 
 ## date handeling
 
