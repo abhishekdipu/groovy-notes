@@ -8,6 +8,9 @@ import org.apache.commons.lang.RandomStringUtils
 String charset = (('A'..'Z') + ('0'..'9')).join()
 Integer length = 9
 String randomString = RandomStringUtils.random(length, charset.toCharArray())
+
+//Random Int (1-500)
+def rand = Math.abs(new Random().nextInt() % 600) + 1
 ```
 ### getting substring
 ```js
